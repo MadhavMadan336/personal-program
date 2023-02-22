@@ -1,0 +1,6 @@
+sec=int(input("Enter seconds"))
+hour=int(sec/3600)
+a=int(sec%3600)
+mins=int(a/60)
+b=int(a%60)
+print("converted into hours ,Minutes ,seconds",hour,mins,b)
