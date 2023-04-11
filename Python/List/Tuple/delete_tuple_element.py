@@ -1,0 +1,5 @@
+tuple1=("ram","shyam","sita","gita")
+print(tuple1)
+del(tuple1)
+print("after deleting tuple::")
+print(tuple1)
