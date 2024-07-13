@@ -1,0 +1,7 @@
+#include <iostream>
+#include <utility>
+int main() {
+    std::pair<int, std::string> p = {1, "One"};
+    std::cout << "Pair: " << p.first << ", " << p.second << std::endl;
+    return 0;
+}
