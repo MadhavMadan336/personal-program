@@ -7,5 +7,5 @@ int main() {
     v.push_back(40);
     cout << "Vector elements: ";//print message bdhdhx
     for (int i : v)
-        cout << i << " ";
+        cout << i << " ";//what is the ndsjsh
 }
