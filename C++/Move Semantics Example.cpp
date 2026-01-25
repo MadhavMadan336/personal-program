@@ -5,6 +5,6 @@ public:
         other.data = nullptr;
     }
 private:
-    int* data;//875575
+    int* data;
     size_t size;
 };
