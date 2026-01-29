@@ -1,4 +1,4 @@
-class Buffer {
+class Buffer {// buffer class 
 public:
     Buffer(size_t n) : size(n), data(new int[n]) {}
     Buffer(Buffer&& other) noexcept : data(other.data), size(other.size) {
