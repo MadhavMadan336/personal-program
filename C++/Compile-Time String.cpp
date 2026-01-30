@@ -1,4 +1,4 @@
-template<size_t N>
+template<size_t N>//565
 struct ConstStr {
     char data[N];
     constexpr ConstStr(const char(&s)[N]){
