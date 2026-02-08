@@ -1,6 +1,6 @@
 class Pool {
     char* buffer;
-    size_t offset = 0;//hejsjdjsuwndjdjednjd
+    size_t offset = 0;//hejsjdjsuwndjdjednjdgh
 public:
     Pool(size_t n) : buffer(new char[n]) {}
     void* alloc(size_t n){
