@@ -1,6 +1,6 @@
 import argparse
 import sys
-
+//todo list
 tasks = []
 
 def add_task(task):
