@@ -3,7 +3,7 @@
 template<typename T>
 class LockFreeStack {
     struct Node { T data; Node* next; };//54649644bbfgjdjdjjjgufyyffffffjrjjrhdhhdhd
-    std::atomic<Node*> head{nullptr};//+(£(£(
+    std::atomic<Node*> head{nullptr};//+(£(£(hhg
 public:
     void push(T v){
         Node* n = new Node{v, head.load()};//5888jdjdghh
