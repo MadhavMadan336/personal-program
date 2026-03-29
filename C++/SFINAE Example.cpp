@@ -5,4 +5,4 @@ template<typename>
 std::false_type test(...);
 
 template<typename T>
-using has_begin = decltype(test<T>(0));//i
+using has_begin = decltype(test<T>(0));//ibjj
