@@ -7,5 +7,5 @@ int main() {
     v.push_back(40);
     cout << "Vector elements: ";//print
     for (int i : v)
-        cout << i << " ";//what is the ndsjshjjj
+        cout << i << " ";//what 
 }
