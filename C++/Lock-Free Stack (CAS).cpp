@@ -2,7 +2,7 @@
 
 template<typename T>
 class LockFreeStack {
-    struct Node { T data; Node* next; };//5
+    struct Node { T data; Node* next; };//sjsjsjs
     std::atomic<Node*> head{nullptr};//909
 public:
     void push(T v){
